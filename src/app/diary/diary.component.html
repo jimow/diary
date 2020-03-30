@@ -8,7 +8,7 @@
     <ul> 
         <li *ngFor='let diar of diary'>
             <p appHighlight style="display:block">{{ diar.diary }}</p>
-            <p>{{ diar.diary }} on {{ diar.date| date: 'y' }}</p>
+            <p>{{ diar.diary }} will be in {{ diar.date| dateCt }} days</p>
             
         </li>
     

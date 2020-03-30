@@ -9,8 +9,8 @@ import { Diary } from '../diary';
 export class DiaryComponent implements OnInit {
   title = "My Diary";
   diary:Diary[] = [
-    new Diary('Meeting at Moring',new Date(2019,0,18)),
-    new Diary('Submission of Weekly IPs', new Date(2020,1,21)),
+    new Diary('Meeting at Moring',new Date(2021,0,18)),
+    new Diary('Submission of Weekly IPs', new Date(2020,4,5)),
     new Diary('Moringa Core Graduation', new Date(2020,5,30)),
   ];
   addNewDiary(goal){
